@@ -1,0 +1,51 @@
+.content {
+  width: 100%;
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: black;
+
+  .text {
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 100px;
+    display: flex;
+    text-align: left;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.slider {
+  color: $secondary;
+  margin-left: 14px;
+  box-sizing: border-box;
+  animation: slider 6s linear infinite;
+}
+
+@keyframes slider {
+  0% {
+    margin-top: -320px;
+  }
+  5% {
+    margin-top: -160px;
+  }
+  30% {
+    margin-top: -160px;
+  }
+  35% {
+    margin-top: 0px;
+  }
+  65% {
+    margin-top: 0px;
+  }
+  70% {
+    margin-top: 160px;
+  }
+  100% {
+    margin-top: 160px;
+  }
+}
