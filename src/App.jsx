@@ -1,30 +1,24 @@
 import React, { useState } from 'react';
 import { Hero } from './components/Hero';
+import { Sidebar } from './components/Sidebar';
 // import
 
 const App = () => {
   return (
-    <div className='container'>
-      <div className='navbar'>
-        <h3>Coding</h3>
-        <nav>
-          <ul>
-            <li>
-              <a href=''>Home</a>
-            </li>
-            <li>
-              <a href=''>About</a>
-            </li>
-            <li>
-              <a href=''>Home</a>
-            </li>
-            <li>
-              <a href=''>Home</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <Hero />
+    <div className='__container'>
+      <section id='home'>
+        <Hero />
+      </section>
+      <section id='services'>
+        <h2>services</h2>
+      </section>
+      <section id='gallery'>
+        <h2>gallery</h2>
+      </section>
+      <section id='contact'>
+        <h2>contact</h2>
+      </section>
+      <Sidebar />
     </div>
   );
 };
