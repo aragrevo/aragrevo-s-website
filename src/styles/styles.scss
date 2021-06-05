@@ -1,6 +1,7 @@
+@import './base/fonts';
 @import './base/settings';
 @import './base/base';
-@import './components/hero';
+@import './pages/hero';
 @import './components/sidebar';
 
 section {
@@ -10,16 +11,13 @@ section {
   align-items: center;
 
   h2 {
-    color: $primary;
-    font-size: 100px;
-    font-family: 'Bebas Neue', cursive;
+    // color: $primary;
+    // font-size: 100px;
+    font-family: $bold_font, 'Bebas Neue', cursive;
     letter-spacing: 2px;
   }
 }
 
-#home {
-  background-color: #ff7a00;
-}
 #services {
   background-color: #67ffe7;
 }

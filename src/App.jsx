@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Hero } from './components/Hero';
+import { Hero } from './pages/Hero';
 import { Sidebar } from './components/Sidebar';
 // import
 

@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: $regular_font, 'Poppins', sans-serif;
 }
 
 html {
@@ -16,16 +16,16 @@ body {
   width: 10px;
 
   &-track {
-    background: #1d191f;
+    background: $dark;
   }
 
   &-thumb {
-    background: #a45aee;
+    background: $primary;
     border-radius: 15px;
   }
 }
 
 ::root {
-  scrollbar-color: #a45aee #1d191f !important;
+  scrollbar-color: $light $dark !important;
   scrollbar-width: thin !important;
 }

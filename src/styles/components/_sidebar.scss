@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: #414141;
+  background-color: $dark;
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
@@ -13,14 +13,14 @@
 }
 
 .nav-link {
-  color: $primary;
-  font-family: 'Montserrat', sans-serif;
+  color: $light;
+  font-family: $regular_font, 'Poppins', sans-serif;
   font-size: 25px;
   text-decoration: none;
 
   i {
     align-items: center;
-    background-color: #414141;
+    background-color: $dark;
     display: inline-flex;
     height: 70px;
     justify-content: center;
@@ -29,7 +29,7 @@
   }
 
   .title {
-    background-color: #414141;
+    background-color: $dark;
     height: 100%;
     line-height: 70px;
     padding-left: 20px;

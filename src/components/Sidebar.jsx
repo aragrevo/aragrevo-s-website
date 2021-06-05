@@ -4,22 +4,22 @@ export const Sidebar = () => {
   const menu = [
     {
       path: '#home',
-      icon: 'home',
+      icon: 'person',
       title: 'Home',
     },
     {
       path: '#services',
-      icon: 'cogs',
+      icon: 'fingerprint',
       title: 'Services',
     },
     {
       path: '#gallery',
-      icon: 'images',
+      icon: 'image',
       title: 'Gallery',
     },
     {
       path: '#contact',
-      icon: 'address-book',
+      icon: 'alternate_email',
       title: 'Contact',
     },
   ];
@@ -29,7 +29,7 @@ export const Sidebar = () => {
         {menu.map((item) => (
           <li className='nav-item'>
             <a href={item.path} className='nav-link'>
-              <i class={`fas fa-${item.icon}`}></i>
+              <i class='material-icons'>{item.icon}</i>
               <span className='title'>{item.title}</span>
             </a>
           </li>
