@@ -4,16 +4,14 @@ export const Hero = () => {
   return (
     <div className='content'>
       <div className='text'>
-        Become a
+        Front-end Developer
         <div className='slider'>
-          <div>programmer</div>
-          <div>web developer</div>
-          <div>angular</div>
+          <div>React</div>
+          <div>Ionic</div>
+          <div>Angular</div>
         </div>
       </div>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, ratione.
-      </p>
+      <p>I code beautifully simple things, and I love what I do.</p>
     </div>
   );
 };
