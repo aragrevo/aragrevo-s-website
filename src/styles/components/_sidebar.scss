@@ -3,12 +3,29 @@
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
+  border-radius: 1rem;
 }
 
 .nav-item {
   position: relative;
+  border-radius: 1rem;
+
   &:not(:last-child) {
     margin-bottom: 20px;
+  }
+
+  &:first-child,
+  &:last-child {
+    .title {
+      transform: translateX(-120%);
+    }
+
+    .nav-link:hover {
+      .title {
+        transform: translateX(-10%);
+        padding-left: 40px;
+      }
+    }
   }
 }
 
@@ -26,6 +43,8 @@
     justify-content: center;
     transition: all 0.3s;
     width: 70px;
+    overflow: hidden;
+    border-radius: 1rem;
   }
 
   .title {
