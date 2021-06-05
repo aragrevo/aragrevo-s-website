@@ -1,14 +1,14 @@
 .sidebar {
   background-color: $dark;
+  border-radius: 1rem;
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
-  border-radius: 1rem;
 }
 
 .nav-item {
-  position: relative;
   border-radius: 1rem;
+  position: relative;
 
   &:not(:last-child) {
     margin-bottom: 20px;
@@ -16,10 +16,6 @@
 
   &:first-child,
   &:last-child {
-    .title {
-      transform: translateX(-120%);
-    }
-
     .nav-link:hover {
       .title {
         transform: translateX(-10%);
@@ -38,25 +34,29 @@
   i {
     align-items: center;
     background-color: $dark;
+    border-radius: 1rem;
     display: inline-flex;
     height: 70px;
     justify-content: center;
-    transition: all 0.3s;
-    width: 70px;
     overflow: hidden;
-    border-radius: 1rem;
+    width: 70px;
+
+    transition: all 0.3s;
   }
 
   .title {
     background-color: $dark;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
     height: 100%;
     line-height: 70px;
     padding-left: 20px;
     padding-right: 65px;
     position: absolute;
+    z-index: -1;
+
     transform: translateX(-100%);
     transition: all 0.3s;
-    z-index: -1;
   }
 
   &:hover {
