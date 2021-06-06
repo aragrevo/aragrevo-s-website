@@ -8,9 +8,9 @@ export const Sidebar = () => {
       title: 'Home',
     },
     {
-      path: '#services',
+      path: '#about',
       icon: 'fingerprint',
-      title: 'Services',
+      title: 'About',
     },
     {
       path: '#gallery',
@@ -27,9 +27,9 @@ export const Sidebar = () => {
     <nav>
       <ul className='sidebar'>
         {menu.map((item) => (
-          <li className='nav-item'>
+          <li className='nav-item' key={item.path}>
             <a href={item.path} className='nav-link'>
-              <i class='material-icons'>{item.icon}</i>
+              <i className='material-icons'>{item.icon}</i>
               <span className='title'>{item.title}</span>
             </a>
           </li>
