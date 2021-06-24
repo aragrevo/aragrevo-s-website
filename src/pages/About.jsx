@@ -7,10 +7,11 @@ export const About = () => {
         <div className='about__content'>
           <h2 className='about__title'>Hi, I’m Eduardo. Nice to meet you.</h2>
           <h3 className='about__subtitle'>
-            Since beginning my journey as a front-end developer nearly{' '}
-            {new Date().getFullYear() - 2019} years ago, I've done remote work
-            for agencies. I'm quietly confident, naturally curious, and
-            perpetually working on improving my chops.
+            👨🏻‍💻 I beginning my journey as a front-end developer nearly{' '}
+            {new Date().getFullYear() - 2018} years ago. 🤔 Exploring new
+            technologies and developing software solutions and quick hacks. 🎓
+            Studying Systems Engineering at University UNAD. 💼 Working as a
+            Development and Analyst at Zoftinium S.A.S.
           </h3>
         </div>
       </div>
